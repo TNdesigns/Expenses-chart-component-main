@@ -1,0 +1,392 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color:hsl(27, 66%, 92%) ;
+}
+.myblnc-bx{
+    height: 127px;
+    width: 440px;
+    background-color: hsl(10, 79%, 65%);
+    position: relative;
+    top: 150px;
+    left: 450px;
+    border-radius: 20px;
+
+}
+.p1{
+    font-family: "DM sans";
+    font-size: 13px;
+    position: relative;
+    top: 35px;
+    left: 30px;
+    color:white;
+
+}
+.nmbr{
+    font-family: "DM sans";
+    font-size: 20px;
+    font-weight: 600;
+    color:white;
+    position: relative;
+    top: 50px;
+    left: 30px;
+}
+.svg{
+    position: relative;
+    top: 0px;
+    left: 330px;
+}
+.chart-bx{
+    height: 420px;
+    width: 440px;
+    background-color: white;
+    position: relative;
+    top: 165px;
+    left: 450px;
+    border-radius: 20px;
+}
+h2{
+    font-family: "DM Sans";
+    position: relative;
+    top: 25px;
+    left:30px;
+}
+.days{
+    display: flex;
+    justify-content: center;
+    /*justify-content:space-between;*/
+    gap:37px;
+    font-size:12px;
+    font-family: "DM Sans";
+    color:rgba(149, 143, 143, 0.933);
+    position: relative;
+    top:-100px;
+}
+.tue{
+    position: relative;
+    left:-2.5px;
+}
+.wed{
+    position: relative;
+    left:-4px;
+}
+.thu{
+    position: relative;
+    left:-7px;
+}
+.fri{
+    position: relative;
+    left:-5px;
+}
+.br-line{
+    display: flex;
+    justify-content:center;
+    gap:15px;
+    transform:rotateX(180deg);
+    position: relative;
+    top:-107px;
+}
+.bar1{
+    height:40px;
+    width:40px;
+    background-color:hsl(10, 79%, 65%);
+    border-radius:4px;
+}
+.bar2{
+    height:80px;
+    width:40px;
+    background-color:hsl(10, 79%, 65%);
+    border-radius:4px;
+}
+.bar3{
+    height:120px;
+    width:40px;
+    background-color:hsl(186, 34%, 60%);
+    border-radius:4px;
+}
+.bar4{
+    height:70px;
+    width:40px;
+    background-color:hsl(10, 79%, 65%);
+    border-radius:4px;
+}
+.bar5{
+    height:50px;
+    width:40px;
+    background-color:hsl(10, 79%, 65%);
+    border-radius:4px;
+}
+.bar6{
+    height:90px;
+    width:40px;
+    background-color:hsl(10, 79%, 65%);
+    border-radius:4px;
+}
+.bar7{
+    height:57px;
+    width:40px;
+    background-color:hsl(10, 79%, 65%);
+    border-radius:4px;
+}
+.bar3:hover{
+    opacity: 65%;
+    cursor: pointer;
+}
+.value1{
+    position: relative;
+    top: 130px;
+    left: 30px;
+    font-size: 13px;
+    font-family: "DM Sans";
+    font-weight: 700;
+    background-color: black;
+    width: 50px;
+    height: 27px;
+    border-radius: 3px;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    color:white;
+    opacity: 0;   
+}
+.value2{
+    position: relative;
+    top: 63px;
+    left: 85px;
+    font-size: 13px;
+    font-family: "DM Sans";
+    font-weight: 700;
+    background-color: black;
+    width: 50px;
+    height: 27px;
+    border-radius: 3px;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    color:white;
+    opacity: 0;   
+}
+.value3{
+    position: relative;
+    top: -3px;
+    left: 140px;
+    font-size: 13px;
+    font-family: "DM Sans";
+    font-weight: 700;
+    background-color: black;
+    width: 50px;
+    height: 27px;
+    border-radius: 3px;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    color:white;
+    opacity: 0;   
+}
+.value4{
+    position: relative;
+    top: 20px;
+    left: 195px;
+    font-size: 13px;
+    font-family: "DM Sans";
+    font-weight: 700;
+    background-color: black;
+    width: 50px;
+    height: 27px;
+    border-radius: 3px;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    color:white;
+    opacity: 0;   
+}
+.value5{
+    position: relative;
+    top: 13px;
+    left: 250px;
+    font-size: 13px;
+    font-family: "DM Sans";
+    font-weight: 700;
+    background-color: black;
+    width: 50px;
+    height: 27px;
+    border-radius: 3px;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    color:white;
+    opacity: 0;   
+}
+.value6{
+    position: relative;
+    top: -54px;
+    left: 305px;
+    font-size: 13px;
+    font-family: "DM Sans";
+    font-weight: 700;
+    background-color: black;
+    width: 50px;
+    height: 27px;
+    border-radius: 3px;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    color:white;
+    opacity: 0;   
+}
+.value7{
+    position: relative;
+    top: -49px;
+    left: 360px;
+    font-size: 13px;
+    font-family: "DM Sans";
+    font-weight: 700;
+    background-color: black;
+    width: 50px;
+    height: 27px;
+    border-radius: 3px;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    color:white;
+    opacity: 0;   
+}
+.line{
+    border-bottom:1px solid ;
+    position: relative;
+    top: -65px;
+    left: 35px;
+    width:370px;
+    color:rgba(149, 143, 143, 0.933);
+}
+.ttl{
+    position: relative;
+    top: -35px;
+    left: 30px;
+    font-family:"DM Sans";
+    color:rgba(149, 143, 143, 0.933);
+}
+h1{
+    position: relative;
+    top:-35px;
+    left: 30px;
+    font-family: "DM Sans";
+    font-size: 41px;
+    font-weight: 500;
+}
+.pnm{
+    position: relative;
+    top: -84px;
+    left: 360px;
+    font-family: "DM Sans";
+    font-weight: bold;
+}
+.ptxt{
+    position: relative;
+    top:-82px;
+    left: 290px;
+    color:rgba(149, 143, 143, 0.933);
+    font-family: "DM Sans";
+    
+}
+@media screen and (max-width:420px){
+    html,body{
+        overflow-x:hidden;
+        height:300vw;
+    }
+    .myblnc-bx{
+        position: relative;
+        top: 20vw;
+        left: 5vw;
+        width: 90vw;
+        height: 28vw;
+    }
+    .p1{
+        position: relative;
+        top: 7vw;
+    }
+    .nmbr{
+        position: relative;
+        top: 9vw;
+    }
+    .chart-bx{
+        position: relative;
+        top: 25vw;
+        left: 5vw;
+        width: 90vw;
+    }
+    .svg{
+        position: relative;
+        top:-3vw;
+        left: 63vw;
+    }
+    .br-line{
+        gap:1.5vw;
+    }
+    .days{
+        gap:7.1vw;
+    }
+    .line{
+        position: relative;
+        left: 4vw;
+        width: 82vw;
+    }
+    .ttl{
+        position: relative;
+        left: 5vw;
+    }
+    h1{
+        position: relative;
+        left: 5vw;
+        font-size:9vw;
+        font-weight: 600;
+    }
+    .pnm{
+        position: relative;
+        left: 74vw;
+        top:-20.5vw;
+    }
+    .ptxt{
+        position: relative;
+        left: 55.2vw;
+        top:-22vw;
+    }
+    .value1{
+        position: relative;
+        top: 35vw;
+        left: 2vw;
+    }
+    .value2{
+        position: relative;
+        top: 17vw;
+        left: 14vw;
+    }
+    .value3{
+        position: relative;
+        top: -1vw;
+        left: 26vw;
+    }
+    .value4{
+        position: relative;
+        top: 5vw;
+        left: 39vw;
+    }
+    .value5{
+        position: relative;
+        top: 3.5vw;
+        left: 50.5vw;
+    }
+    .value6{
+        position: relative;
+        top: -15vw;
+        left: 62.5vw;
+    }
+    .value7{
+        position: relative;
+        top: -13vw;
+        left: 75vw;
+    }
+
+}
